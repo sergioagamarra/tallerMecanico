@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247498015248",
+    "project_id": "taller-mecanico-antonio",
+    "storage_bucket": "taller-mecanico-antonio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247498015248:android:011fea8b6d639fa7940095",
+        "android_client_info": {
+          "package_name": "com.example.tallermecanicoantonio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247498015248-5mhhi8u5o96a8q5n2l8i9qq7g1lsvk9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxFXq7wuf87Uo4M5WsaC6ApPJ7m7w0kXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247498015248-5mhhi8u5o96a8q5n2l8i9qq7g1lsvk9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    tools:context=".ListarServiciosActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AD000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText_buscar_servicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input"
+            android:drawableRight="@drawable/ic_buscar"
+            android:hint="Buscar servicio"
+            android:inputType="textPersonName|text|textCapWords"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_servicios"
+            android:layout_width="match_parent"
+            android:layout_height="486dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textView_importe_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:focusable="true"
+            android:text="Ingreso total: $0"
+            android:textColor="#fff"
+            android:textColorHint="#CCC"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_exportar_pdf_servicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_redondeado"
+            android:elevation="5dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="EXPORTAR A PDF"
+            android:textColor="#403f3f"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
